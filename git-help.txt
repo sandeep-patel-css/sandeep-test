@@ -14,4 +14,4 @@ To add local repo file to the github:
 	# Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 To pull the files added on the github after initial clone:
-	$git pull
+	$ git pull
