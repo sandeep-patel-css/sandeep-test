@@ -15,3 +15,6 @@ To add local repo file to the github:
 
 To pull the files added on the github after initial clone:
 	$ git pull
+
+To remove any file from local repo: (you still need to add, commit and push this change to the origin)
+	$ git rm "file-name-here"
