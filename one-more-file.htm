@@ -1,0 +1,20 @@
+To add local repo file to the github:
+	$ git add .
+	# Adds the files in the local repository and stages them for commit
+
+	$ git commit -m 'First commit'
+	# Commits the tracked changes and prepares them to be pushed to a remote repository
+
+	$ git remote add origin <remote repository URL>
+	# Sets the new remote
+	$ git remote -v
+	# Verifies the new remote URL
+
+	$ git push origin master
+	# Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+To pull the files added on the github after initial clone:
+	$ git pull
+
+To remove any file from local repo: (you still need to add, commit and push this change to the origin)
+	$ git rm "file-name-here"
