@@ -18,3 +18,9 @@ To pull the files added on the github after initial clone:
 
 To remove any file from local repo: (you still need to add, commit and push this change to the origin)
 	$ git rm "file-name-here"
+	
+===============================================
+GitHub Account:
+	- https://github.com/
+	- sandeep-patel-css / sandeep123
+=================================================
